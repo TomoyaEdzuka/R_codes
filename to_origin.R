@@ -29,9 +29,5 @@ ggplot(df, aes(x, y)) +
 
 # 原点に平行移動したことを確認
 ggplot(df, aes(x_ori, y_ori)) + 
-<<<<<<< HEAD
   geom_point() + 
   geom_smooth(method = "lm")
-=======
-  geom_point()
->>>>>>> dea80a3b896a2ef0a1d166f2c6b9f2e8bf1495d8
